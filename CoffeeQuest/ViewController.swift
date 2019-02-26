@@ -6,15 +6,24 @@
 //  Copyright © 2019 vinso. All rights reserved.
 //
 
-import UIKit
+import MapKit
+import YelpAPI
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var mapView: MKMapView! {
+        didSet {
+            mapView.showsUserLocation = true
+        }
+    }
+    
+    var business: [YLPBusiness] = []
+    let client = YLPClient(apiKey: Constants.API_KEY)
+    let locationManager = CLLocationManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        locationManager.requestWhenInUseAuthorization()
     }
-
-
 }
 
