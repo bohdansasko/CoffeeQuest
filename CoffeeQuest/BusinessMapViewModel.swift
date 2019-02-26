@@ -1,11 +1,11 @@
 //
-//  MapPin.swift
+//  BusinessMapViewModel.swift
 //  CoffeeQuest
 //
 
 import MapKit
 
-class MapPin: NSObject {
+class BusinessMapViewModel: NSObject {
     let coordinate: CLLocationCoordinate2D
     let name: String
     let rating: Double
@@ -18,7 +18,7 @@ class MapPin: NSObject {
     
 }
 
-extension MapPin: MKAnnotation {
+extension BusinessMapViewModel: MKAnnotation {
     var title: String? {
         return name
     }

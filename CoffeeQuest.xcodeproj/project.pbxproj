@@ -13,7 +13,7 @@
 		C71F8F9B2225629300DA0506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71F8F992225629300DA0506 /* Main.storyboard */; };
 		C71F8F9D2225629400DA0506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C71F8F9C2225629400DA0506 /* Assets.xcassets */; };
 		C71F8FA02225629400DA0506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71F8F9E2225629400DA0506 /* LaunchScreen.storyboard */; };
-		C71F8FB122258E4900DA0506 /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71F8FB022258E4900DA0506 /* MapPin.swift */; };
+		C71F8FB122258E4900DA0506 /* BusinessMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71F8FB022258E4900DA0506 /* BusinessMapViewModel.swift */; };
 		C7B7CFA5222595CC00B4E5B9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B7CFA4222595CC00B4E5B9 /* Constants.swift */; };
 		C7B7CFA92225967500B4E5B9 /* ViewController+MKMapViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B7CFA82225967500B4E5B9 /* ViewController+MKMapViewDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -27,7 +27,7 @@
 		C71F8F9C2225629400DA0506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C71F8F9F2225629400DA0506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C71F8FA12225629400DA0506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C71F8FB022258E4900DA0506 /* MapPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
+		C71F8FB022258E4900DA0506 /* BusinessMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessMapViewModel.swift; sourceTree = "<group>"; };
 		C7B7CFA4222595CC00B4E5B9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C7B7CFA82225967500B4E5B9 /* ViewController+MKMapViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+MKMapViewDelegate.swift"; sourceTree = "<group>"; };
 		D3F8BF64B15459C9B6866530 /* Pods-CoffeeQuest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeQuest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoffeeQuest/Pods-CoffeeQuest.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 		C7B7CFA6222595FD00B4E5B9 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				C71F8FB022258E4900DA0506 /* MapPin.swift */,
+				C71F8FB022258E4900DA0506 /* BusinessMapViewModel.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -258,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7B7CFA92225967500B4E5B9 /* ViewController+MKMapViewDelegate.swift in Sources */,
-				C71F8FB122258E4900DA0506 /* MapPin.swift in Sources */,
+				C71F8FB122258E4900DA0506 /* BusinessMapViewModel.swift in Sources */,
 				C71F8F982225629300DA0506 /* ViewController.swift in Sources */,
 				C71F8F962225629300DA0506 /* AppDelegate.swift in Sources */,
 				C7B7CFA5222595CC00B4E5B9 /* Constants.swift in Sources */,

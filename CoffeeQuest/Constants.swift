@@ -2,9 +2,6 @@
 //  Constants.swift
 //  CoffeeQuest
 //
-//  Created by Bogdan Sasko on 2/26/19.
-//  Copyright © 2019 vinso. All rights reserved.
-//
 
 import Foundation
 
