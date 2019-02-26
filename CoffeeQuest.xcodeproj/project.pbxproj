@@ -12,6 +12,7 @@
 		C71F8F9B2225629300DA0506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71F8F992225629300DA0506 /* Main.storyboard */; };
 		C71F8F9D2225629400DA0506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C71F8F9C2225629400DA0506 /* Assets.xcassets */; };
 		C71F8FA02225629400DA0506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71F8F9E2225629400DA0506 /* LaunchScreen.storyboard */; };
+		C71F8FB122258E4900DA0506 /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71F8FB022258E4900DA0506 /* MapPin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C71F8F9C2225629400DA0506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C71F8F9F2225629400DA0506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C71F8FA12225629400DA0506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71F8FB022258E4900DA0506 /* MapPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,39 @@
 		C71F8F942225629300DA0506 /* CoffeeQuest */ = {
 			isa = PBXGroup;
 			children = (
-				C71F8F952225629300DA0506 /* AppDelegate.swift */,
-				C71F8F972225629300DA0506 /* ViewController.swift */,
-				C71F8F992225629300DA0506 /* Main.storyboard */,
-				C71F8F9C2225629400DA0506 /* Assets.xcassets */,
-				C71F8F9E2225629400DA0506 /* LaunchScreen.storyboard */,
-				C71F8FA12225629400DA0506 /* Info.plist */,
+				C71F8FAF22258E3D00DA0506 /* sources */,
+				C71F8FAE22258E3100DA0506 /* storyboards */,
+				C71F8FAD22258E2300DA0506 /* resources */,
 			);
 			path = CoffeeQuest;
+			sourceTree = "<group>";
+		};
+		C71F8FAD22258E2300DA0506 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				C71F8F9C2225629400DA0506 /* Assets.xcassets */,
+				C71F8FA12225629400DA0506 /* Info.plist */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		C71F8FAE22258E3100DA0506 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C71F8F992225629300DA0506 /* Main.storyboard */,
+				C71F8F9E2225629400DA0506 /* LaunchScreen.storyboard */,
+			);
+			name = storyboards;
+			sourceTree = "<group>";
+		};
+		C71F8FAF22258E3D00DA0506 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				C71F8F952225629300DA0506 /* AppDelegate.swift */,
+				C71F8F972225629300DA0506 /* ViewController.swift */,
+				C71F8FB022258E4900DA0506 /* MapPin.swift */,
+			);
+			name = sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C71F8FB122258E4900DA0506 /* MapPin.swift in Sources */,
 				C71F8F982225629300DA0506 /* ViewController.swift in Sources */,
 				C71F8F962225629300DA0506 /* AppDelegate.swift in Sources */,
 			);
